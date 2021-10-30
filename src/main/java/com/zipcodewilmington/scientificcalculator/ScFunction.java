@@ -85,11 +85,14 @@ public class ScFunction {
 //
 //    }
 //
-//    public factorial(double num1) {
-
-//
-//
-//    }
+    public  Double factorial(double num1) {
+        double i;
+        while (i <= num1) {
+            result = result * i;
+            i++;
+        }
+//        return result;
+    }
 
 
 }
