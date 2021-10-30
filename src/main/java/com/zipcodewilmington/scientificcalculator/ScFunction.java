@@ -62,15 +62,18 @@ public class ScFunction {
     }
 
 
-    public double log(double num1) {
+    public double log(double num1, double num2) {
         result = Math.log(num1);
         return result;
+        // need to revisit--not sure
     }
 
 
     public double inverseLog(double num1) {
         result = Math.exp(Math.log(num1));
         return result;
+        // inputs are traditionally known as x and y
+        // needs two inputs
     }
 
 
@@ -83,6 +86,7 @@ public class ScFunction {
 //    }
 //
 //    public factorial(double num1) {
+
 //
 //
 //    }
