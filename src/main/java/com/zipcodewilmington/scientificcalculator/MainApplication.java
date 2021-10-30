@@ -1,5 +1,6 @@
 package com.zipcodewilmington.scientificcalculator;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 /**
@@ -21,7 +22,7 @@ public class MainApplication {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("select\n 1) add \n 2) subtract\n 3) multiply \n 4) divison\n");
+        System.out.println("select\n 1) add \n 2) subtract\n 3) multiply \n 4) divison\n 5) TESTING CASE\n");
         Integer choice = scan.nextInt();
 
 
@@ -35,7 +36,7 @@ public class MainApplication {
         System.out.println("Enter second number");
         Double input2 = scan.nextDouble();
 
-
+        ScFunction calcSc = new ScFunction();
         BasicCalculator calc = new BasicCalculator();
 
         switch (choice){
@@ -50,6 +51,11 @@ public class MainApplication {
             break;
             case 4:
                 System.out.println(calc.divide(input1, input2));
+                break;
+            case 5:
+                System.out.println(calcSc.log(input1, input2));
+                break;
+
 
         }
 
