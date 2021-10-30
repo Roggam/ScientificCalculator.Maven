@@ -1,8 +1,10 @@
+=======
 #Team Members
 
 teAM MEMBER
+Keerthana
 
-# ScientificCalculator (maven) ZCW
+# com.zipcodewilmington.scientificcalculator.ScientificCalculator (maven) ZCW
 
 ## Description
 
