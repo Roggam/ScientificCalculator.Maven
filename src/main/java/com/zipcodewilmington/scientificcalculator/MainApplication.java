@@ -1,8 +1,6 @@
 package com.zipcodewilmington.scientificcalculator;
 
-<<<<<<< HEAD
-import java.sql.SQLOutput;
-=======
+
 import java.util.InputMismatchException;
 >>>>>>> b1fcd00dfa2f73fb6179efa6ffe7dde0c95d316b
 import java.util.Scanner;
